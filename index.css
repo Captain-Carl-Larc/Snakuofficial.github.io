@@ -1,0 +1,125 @@
+
+/* GENERAL STYLES FOR WHOLE DCOUMENT */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* html{
+    
+} */
+body{
+    list-style: none;
+}
+/* HEADER STYLING  */
+header{
+    width: 100%;
+    height: 16vh;
+    /* background: linear-gradient(#D3F5C5,#A8DBFA,#635EE2);
+    background-repeat: no-repeat; */
+    background-color: rgb(77, 77, 156);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.19rem rgb(14, 12, 12) solid;
+}
+.logo p{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    font-weight: bold;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-right: 3rem;
+}
+.nav-menu ul li{
+    margin: 0rem 1rem;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* transition: all .3s ease-in-out; */
+}
+.nav-menu ul li button{
+    width: 6.5rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: red;
+    background-color: bisque;
+    border: 0.19rem solid rgb(93, 40, 114);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+
+/* STYLING MAIN SECTION */
+main{
+    min-height: 80vh;
+}
+
+/* STYLING FOOTER  */
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(113, 113, 201);
+}
+
+
+footer ul{
+    list-style: none;
+}
+footer .media ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .posts ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .snaku ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .kuson ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .Resources ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
